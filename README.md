@@ -57,3 +57,47 @@ cd RemUI
 cd C:\Path\To\Your\Project\pythonpackage
 call ..\.venv\Scripts\activate.bat
 python -m pytest --browser_name=firefox --html="../reports/report.html"
+________________________________________
+API Tests
+1.	Clone API test repo:
+ 	git clone https://github.com/SubhajeetRoyWolf/REM-API-test.git
+cd REM-API-test/postman
+2.	Ensure you have Newman installed globally:
+ 	npm install -g newman
+3.	Run Newman CLI:
+ 	newman run SampleTest.postman_collection.json --reporters cli,html --reporter-html-export reports/report.html
+✅ Run API Tests via Jenkins (Generic Path)
+cd path\to\REM-API-test\postman
+newman run SampleTest.postman_collection.json --reporters cli,html --reporter-html-export reports\report.html
+________________________________________
+5. Assumptions / Limitations
+•	UI tests are validated against known static elements (not dynamic DOM)
+•	Login requires hardcoded valid credentials (can be parameterized)
+•	No mock server used — all tests run against the actual backend
+•	Order placement tested with simplified schema (no payment gateway)
+________________________________________
+6. README (Quick Setup)
+Prerequisites
+•	Node.js (for backend)
+•	Python + pip (for UI tests)
+•	ChromeDriver in PATH
+•	Newman installed globally: npm install -g newman
+Steps
+# Clone API repo
+https://github.com/SubhajeetRoyWolf/REM-API-test.git
+cd REM-API-test/postman
+
+# Run API tests
+newman run SampleTest.postman_collection.json --reporters cli,html --reporter-html-export reports/report.html
+
+# Clone UI repo
+https://github.com/SubhajeetRoyWolf/RemUI.git
+cd RemUI
+
+# Run UI tests
+python -m venv .venv
+.venv\Scripts\activate
+pip install selenium pytest
+pytest --browser_name=firefox
+________________________________________
+✅ Ready for Submission You can submit this test setup via the form link provided in the job description.
