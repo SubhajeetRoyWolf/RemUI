@@ -1,0 +1,17 @@
+ 2025-02-15 13:44:00,655 : ERROR : pythonpackage.test_logging : Error statement 
+ 2025-02-15 13:44:00,655 : WARNING : pythonpackage.test_logging : warning statement 
+ 2025-02-15 13:45:29,891 : INFO : pythonpackage.test_logging : information statement 
+ 2025-02-15 13:45:29,891 : ERROR : pythonpackage.test_logging : Error statement 
+ 2025-02-15 13:45:29,891 : WARNING : pythonpackage.test_logging : warning statement 
+ 2025-02-15 14:14:35,920 : INFO : pythonpackage.BaseClass : ('chrome', 'shubh') 
+ 2025-02-15 14:14:35,922 : INFO : pythonpackage.BaseClass : ('IE', 'Naveen') 
+ 2025-02-15 14:14:35,922 : INFO : pythonpackage.BaseClass : ('IE', 'Naveen') 
+ 2025-02-15 14:14:35,924 : INFO : pythonpackage.BaseClass : ('FireFox', 'arprit') 
+ 2025-02-15 14:14:35,924 : INFO : pythonpackage.BaseClass : ('FireFox', 'arprit') 
+ 2025-02-15 14:14:35,924 : INFO : pythonpackage.BaseClass : ('FireFox', 'arprit') 
+ 2025-02-15 14:22:44,173 : INFO : test_CrossBanner : ('chrome', 'shubh') 
+ 2025-02-15 14:22:44,178 : INFO : test_CrossBanner : ('IE', 'Naveen') 
+ 2025-02-15 14:22:44,178 : INFO : test_CrossBanner : ('IE', 'Naveen') 
+ 2025-02-15 14:22:44,182 : INFO : test_CrossBanner : ('FireFox', 'arprit') 
+ 2025-02-15 14:22:44,182 : INFO : test_CrossBanner : ('FireFox', 'arprit') 
+ 2025-02-15 14:22:44,182 : INFO : test_CrossBanner : ('FireFox', 'arprit') 

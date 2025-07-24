@@ -1,0 +1,3 @@
+ 2025-03-16 20:10:43,688 : INFO : pythonpackage.test_logging : information statement 
+ 2025-03-16 20:10:43,688 : ERROR : pythonpackage.test_logging : Error statement 
+ 2025-03-16 20:10:43,688 : WARNING : pythonpackage.test_logging : warning statement 
